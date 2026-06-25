@@ -1,5 +1,11 @@
 # MuJoCo Franka Panda — 외란 강건성 정밀 정렬 (외부 비전 보정 루프)
 
+[![리포트 보기](https://img.shields.io/badge/📄%20HTML%20Report-GitHub%20Pages-06b6d4?style=for-the-badge)](https://Y00nTae1.github.io/Robustness-Report/)
+
+> 🌐 **[HTML 리포트 전체 보기 →](https://Y00nTae1.github.io/Robustness-Report/report/robustness_report_final.html)**
+
+
+
 MuJoCo + Franka Emika Panda 시뮬에서 광학 부품(ArUco 마커)을 외부 비전 모듈(JSON 연동)로
 정밀 정렬하고, 현실 외란(조명·노이즈·좌표 드리프트)에 대한 보정 루프의 강건성을 측정한다.
 SRS 허용오차 ±0.5mm / ±2°, GSD 1.4475 mm/px(top 카메라 1280×960).
