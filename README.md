@@ -1,6 +1,9 @@
 # Vision 기반 피드백 루프의 허위 수렴(False-Convergence) 발견 및 검증
 ## — MuJoCo-Franka Panda 광학 부품 정밀 정렬 시뮬레이션
 
+[![📄 웹에서 보기 (HTML Report)](https://img.shields.io/badge/📄%20HTML%20Report-GitHub%20Pages-06b6d4?style=for-the-badge)](https://Y00nTae1.github.io/Robustness-Report/) 
+[![🎥 시뮬레이션 데모 영상 (AVI)](https://img.shields.io/badge/🎥%20Demo%20Video-Download%20AVI-ff0000?style=for-the-badge)](https://github.com/Y00nTae1/Robustness-Report/raw/main/report/figures/video/cycle_demo.avi)
+
 **저자:** 윤태원 | **제출일:** 2026-06-26 | TelePIX SpaceLAB Fellowship — 로봇 시뮬레이션·자동화 트랙
 
 ---
