@@ -21,7 +21,19 @@
       "mcp__Claude_Preview__preview_start",
       "Bash(du -sh report)",
       "Bash(rm -f \"report/make_figures \\(1\\).py\" \"report/robustness_report_final \\(1\\).md\")",
-      "Bash(rm -f report/figures/video/frame_*.png)"
+      "Bash(rm -f report/figures/video/frame_*.png)",
+      "PowerShell(git -C C:\\\\Users\\\\�¿�\\\\R0B checkout --theirs README.md)",
+      "PowerShell(git -C C:\\\\Users\\\\�¿�\\\\R0B add README.md)",
+      "PowerShell(git -C C:\\\\Users\\\\�¿�\\\\R0B rebase --continue 2>&1)",
+      "PowerShell(git -C C:\\\\Users\\\\�¿�\\\\R0B status --short)",
+      "PowerShell(git -C C:\\\\Users\\\\�¿�\\\\R0B diff --cached --name-only)",
+      "PowerShell(git -C C:\\\\Users\\\\�¿�\\\\R0B rebase --continue)",
+      "PowerShell($env:GIT_EDITOR='true'; git -C C:\\\\Users\\\\태원\\\\R0B -c core.editor=true rebase --continue 2>&1)",
+      "PowerShell(git -C C:\\\\Users\\\\�¿�\\\\R0B rebase --abort)",
+      "PowerShell(git -C C:\\\\Users\\\\�¿�\\\\R0B stash pop)",
+      "PowerShell(git -C C:\\\\Users\\\\�¿�\\\\R0B pull --no-rebase origin main 2>&1)",
+      "Bash(cd \"/c/Users/태원/R0B\" && echo \"=== interface DEFAULT_GAIN / process_request gain ===\" && grep -nE \"DEFAULT_GAIN|gain\" external_module/interface.py | head; echo \"\" && echo \"=== run_cycle / align_loop 의 correction 적용·gain ===\" && grep -nE \"gain|compute_alignment|correction\" sim/run_cycle.py | head; echo \"\" && echo \"=== run_experiment 가 gain 넘기나? ===\" && grep -nE \"gain\" experiments/run_experiment.py | head)",
+      "Bash(\"/c/Users/태원/R0B/mujoco_env/Scripts/python.exe\" -)"
     ]
   }
 }
