@@ -1,5 +1,4 @@
 
-```markdown
 # 비전 보정 루프의 허위 수렴(False-Convergence) 발견과 검증
 ## — MuJoCo · Franka Panda 기반 광학 부품 정밀 정렬 시뮬레이션
 
